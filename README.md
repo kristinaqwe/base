@@ -23,9 +23,9 @@ SELECT * FROM orders WHERE STATUS IN ('cancelled','in_progress','delivery')
 
 Выберите из таблицы orders 3 самых дешевых заказа за всё время. Данные нужно отсортировать в порядке убывания цены. Отмененные заказы не учитывайте. 
 
-SELECT * FROM orders WHERE status != 'cancelled' ORDER BY sum ASC LIMIT 3; 
+![image](https://github.com/user-attachments/assets/cc53d70b-f7b6-4f3f-912e-9d5267c7e3fc)
 
-![image](https://github.com/user-attachments/assets/77cb7c91-c06c-45a8-b63b-b8c029905a1b)
+![image](https://github.com/user-attachments/assets/543b2368-787c-45d9-92b3-0c1d0bffd929)
 
 Выберите из таблицы orders 2 самых дорогих заказов за всё время. Данные нужно отсортировать в порядке убывания цены. Отмененные заказы не учитывайте.
 SELECT * FROM orders WHERE
