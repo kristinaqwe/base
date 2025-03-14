@@ -1,28 +1,23 @@
 ЛР1
 
-![image](https://github.com/user-attachments/assets/1416db84-28fe-4bc4-975a-f83d2350c791)
-
 Выберите из таблицы orders все заказы
 SELECT * FROM orders
 
-![image](https://github.com/user-attachments/assets/3ff06dfa-1e41-4dc3-87ca-58fb60ed4cd5)
+![image](https://github.com/user-attachments/assets/1b866fb4-4469-4e3e-92df-82d362075864)
 
 Выберите из таблицы orders все заказы кроме новых. У новых заказов status равен "new". Использовать in
 
 SELECT * FROM orders WHERE STATUS IN ('cancelled','in_progress','delivery')
-![image](https://github.com/user-attachments/assets/7de17470-2117-416d-8c97-e628f8f2d7db)
+
+![image](https://github.com/user-attachments/assets/db90c63f-44aa-4a43-852f-0a1994980910)
 
 Выберите из таблицы orders все новые и отмененные заказы. У отмененных заказов status равен "cancelled". У новых заказов status равен "new".
 
-SELECT * FROM orders WHERE STATUS IN ('cancelled','new')
-
-![image](https://github.com/user-attachments/assets/db6d3a42-b74b-4ab8-a7a7-f281d1539d07)
+![image](https://github.com/user-attachments/assets/1bab57a8-2ed4-4a74-b9c7-f5403e1c4679)
 
 Выберите из таблицы orders все заказы содержащие более 3 товаров (products_count). Вывести нужно только номер (id) и сумму (sum) заказа.
 
-SELECT id, sum FROM orders WHERE products_count > 3
-
-![image](https://github.com/user-attachments/assets/b1216515-95ed-46c9-8106-997341a149bf)
+![image](https://github.com/user-attachments/assets/f7b5ad58-4a12-40ee-803d-27d07851cab8)
 
 2 Лр
 
