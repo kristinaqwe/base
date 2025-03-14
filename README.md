@@ -36,3 +36,32 @@ SELECT * FROM orders WHERE status != 'cancelled' ORDER BY sum ASC LIMIT 3;
 SELECT * FROM orders WHERE
 
 ![image](https://github.com/user-attachments/assets/7de17470-2117-416d-8c97-e628f8f2d7db) 
+
+Добавьте в таблицу orders данные о новом заказе стоимостью 8000 рублей. В заказе 4 товара (products).
+
+![image](https://github.com/user-attachments/assets/fadda9c3-b421-4e29-adc2-5f8ad14a2b3a)
+
+![image](https://github.com/user-attachments/assets/d3a3b3b3-2424-440f-9650-48b1d1fc32af)
+
+Добавьте в таблицу products новый товар — «VR-очки», стоимостью 70000 рублей в количестве (count) 2 штук.
+
+![image](https://github.com/user-attachments/assets/64ab3a8e-2553-4c62-a39c-ccd5bb605d64)
+
+![image](https://github.com/user-attachments/assets/b80a5818-5c38-4383-8a93-a35a5c27ff86)
+
+В таблицу products внесли данные с ошибкой, вместо "PS5" в наименовании написали IMAC. Исправьте ошибку.
+
+![image](https://github.com/user-attachments/assets/f0af3d88-fedf-4bd1-abe3-4603dcfb79d2)
+
+![image](https://github.com/user-attachments/assets/f89fdd8c-b4bf-43ec-99ca-ba5e17c61992)
+
+ЛР3
+
+Создайте таблицу users с полем id типа INT и двумя текстовыми полями, которые будут хранить имя (first_name) и фамилию (last_name). Длина имени и фамилии не превышает 50 символов.
+
+Добавьте в таблицу трех пользователей: Дмитрия Иванова, Анатолия Белого и Дениса Давыдова.
+
+![image](https://github.com/user-attachments/assets/412010e6-a4fa-4f43-8c9e-c41192f5efa8)
+
+![image](https://github.com/user-attachments/assets/cade026c-ab63-4d96-9d82-c1702785bad9)
+
