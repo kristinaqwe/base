@@ -25,12 +25,10 @@ SELECT * FROM orders WHERE STATUS IN ('cancelled','in_progress','delivery')
 
 ![image](https://github.com/user-attachments/assets/cc53d70b-f7b6-4f3f-912e-9d5267c7e3fc)
 
-![image](https://github.com/user-attachments/assets/543b2368-787c-45d9-92b3-0c1d0bffd929)
-
 Выберите из таблицы orders 2 самых дорогих заказов за всё время. Данные нужно отсортировать в порядке убывания цены. Отмененные заказы не учитывайте.
 SELECT * FROM orders WHERE
 
-![image](https://github.com/user-attachments/assets/7de17470-2117-416d-8c97-e628f8f2d7db) 
+ ![image](https://github.com/user-attachments/assets/0157b75e-b031-468f-a460-b8980688787f)
 
 Добавьте в таблицу orders данные о новом заказе стоимостью 8000 рублей. В заказе 4 товара (products).
 
